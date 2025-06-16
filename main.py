@@ -17,7 +17,6 @@ for index, row in df.iterrows():
          new_x=XPos.LMARGIN, new_y=YPos.NEXT)
     for y in range(20, 298, 10):
         pdf.line(10, y, 200, y)
-    pdf.line(10, 21, 200, 21)
 
     # set the footer
     pdf.ln(267)
